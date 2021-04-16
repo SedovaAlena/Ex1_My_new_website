@@ -4,7 +4,7 @@ body {
 /* bgcolor="#4169E1" background="yz1.jpg" text="#FFFFFF" */
 a {
   color: #4f8076;
-  font-family: 'Segoe Print';
+  font-family: 'Segoe Script';
 }
 h2 {
   background-color:  #eaeaea;
@@ -36,4 +36,20 @@ h3 {
   font: 15px;
   font-weight: 500;
   line-height: 20px;
+}
+input[type=text]{
+  width: 400px;
+  height: 30px;
+  color: #5944b4;
+  font-family: 'Segoe Print';
+  font-weight: bold;
+  font-size: 18px;
+}
+input[type=email]{
+  width: 400px;
+  height: 30px;
+  color: #5944b4;
+  font-family: 'Segoe Print';
+  font-weight: bold;
+  font-size: 18px;
 }
