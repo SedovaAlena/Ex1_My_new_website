@@ -66,3 +66,14 @@ input[type=email]{
 li {
   list-style-type:  none;
 }
+tr {
+  display: table-cell;
+}
+table {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #000;
+}
+td, th {
+  border: 1px solid #000;
+}
