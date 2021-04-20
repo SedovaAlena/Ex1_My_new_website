@@ -3,8 +3,18 @@ body {
 }
 /* bgcolor="#4169E1" background="yz1.jpg" text="#FFFFFF" */
 a {
-  color: #4f8076;
+  color: #6c4f80;
   font-family: 'Segoe Script';
+  text-decoration: none;
+}
+a:hover:link {
+  color: #3bb371;
+ }
+a:hover:visited {
+  color: #133321;
+ }
+a:visited{
+  color: #7e22d4;
 }
 h2 {
   background-color:  #eaeaea;
@@ -52,4 +62,7 @@ input[type=email]{
   font-family: 'Segoe Print';
   font-weight: bold;
   font-size: 18px;
+}
+li {
+  list-style-type:  none;
 }
