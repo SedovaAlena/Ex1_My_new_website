@@ -11,7 +11,7 @@ a:hover:link {
   color: #3bb371;
  }
 a:hover:visited {
-  color: #133321;
+  color: #063624;
  }
 a:visited{
   color: #7e22d4;
@@ -66,14 +66,31 @@ input[type=email]{
 li {
   list-style-type:  none;
 }
-tr {
-  display: table-cell;
+table,
+td,
+th {
+	border: 1px solid black;
 }
 table {
-  width: 400px;
-  height: 200px;
-  border: 1px solid #000;
+	border-collapse: collapse;
 }
-td, th {
-  border: 1px solid #000;
+.product_img {
+	border: solid;
+	border-color: #c191ee #483e9e #1c145e #7b3b8b;
+}
+.product_img:hover {
+	border: none;
+	margin: 3px;
+}
+td,
+th {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+}
+th {
+	background: #c6f5f0;
+}
+td {
+	background: #f2fcfb;
 }
