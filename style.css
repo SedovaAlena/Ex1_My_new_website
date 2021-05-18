@@ -85,15 +85,26 @@ table {
 	border: none;
 	margin: 3px;
 }
-td,
-th {
-	width: 150px;
-	height: 30px;
-	text-align: center;
+.container{
+  text-align: center;
 }
-th {
-	background: #c6f5f0;
+.header{
+  height: 70%;
+
 }
-td {
-	background: #f2fcfb;
+input[type="button"]{
+  font-family: 'Segoe Script';
+}
+input[type="button"]:hover{
+  background-color: #927d38;
+  color: #FFF
+}
+input[type="button"]:active{
+  background-color: #3b3c69;
+  color: #FFF
+}
+footer{
+  height: 100px;
+  text-align: right;
+  
 }
