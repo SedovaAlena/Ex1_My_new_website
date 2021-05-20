@@ -47,7 +47,7 @@ h3 {
   font-weight: 500;
   line-height: 20px;
 }
-.forfio : first-letter{
+.forfio:first-letter{
   text-transform: capitalize;
 }
 input[type=text]{
@@ -102,7 +102,7 @@ th {
   height: 70%;
 
 }
-input[type="button"]{
+input[type="button"],[type="reset"]{
   font-family: 'Segoe Script';
 }
 input[type="button"]:hover{
@@ -113,8 +113,19 @@ input[type="button"]:active{
   background-color: #3b3c69;
   color: #FFF
 }
+input[type="reset"]:hover{
+  background-color: #925c38;
+  color: #FFF
+}
+input[type="reset"]:active{
+  background-color: #b63220;
+  color: #FFF
+}
 footer{
-  height: 100px;
+  height: 70px;
   text-align: right;
-  
+  /*background-color: rgb(255, 255, 255);*/
+}
+.logo {
+  position:relative;
 }
