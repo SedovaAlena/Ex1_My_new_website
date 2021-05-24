@@ -70,6 +70,8 @@ input[type=email]{
 }
 li {
   list-style-type:  none;
+  display: inline;
+
 }
 table,
 td,
@@ -83,9 +85,16 @@ th {
 table {
 	border-collapse: collapse;
 }
+ul.product_img {
+  float: left;
+  max-width: 190px;
+  max-height: 200px;
+}
 .product_img {
+
 	border: solid;
 	border-color: #c191ee #483e9e #1c145e #7b3b8b;
+  width: 18%;
 }
 .product_img:hover {
 	border: none;
@@ -144,15 +153,26 @@ footer{
   padding-top: 10px;
 }
 #smt1{
-
   text-align: right;
-
-
 }
 .logo {
   padding-left: 10px;
   padding-right: auto;
-  position: sticky;
   float: left;
-  width: 100px;
+  min-width: 40px;
+  max-width: 110px;
+}
+#forimg{
+  float: left;
+  min-width: 190px;
+  height: 100%;
+  width: 50%;
+}
+#dline{
+  display: inline-block;
+  position: relative;
+  width: 33%;
+}
+#fc{
+  clear: both;
 }
